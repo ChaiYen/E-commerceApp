@@ -1,6 +1,7 @@
-import { useState, useEffect, useContext } from 'react';
-import { getRedirectResult } from 'firebase/auth';
-import {auth, signInWithGoogleRedirect,signInWithGooglePopup, createUserDocumentFromAuth, signInAuthUserWithEmailAndPassword } from '../utils/firebase/firebase.utils';
+import { useState } from 'react';
+//import { getRedirectResult } from 'firebase/auth';
+// 
+import {signInWithGooglePopup, signInAuthUserWithEmailAndPassword } from '../utils/firebase/firebase.utils';
 import FormInput from '../form-input/form-input-component';
 import Button, {BUTTON_TYPE_CLASSES} from '../button/button.component';
 

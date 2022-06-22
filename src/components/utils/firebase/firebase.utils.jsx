@@ -1,5 +1,5 @@
 // Import the functions you need from the SDKs you need
-import { async } from "@firebase/util";
+// import { async } from "@firebase/util";
 import { initializeApp } from "firebase/app";
 import { 
     getAuth, 
@@ -34,6 +34,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
+// eslint-disable-next-line
 const firebaseApp = initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
